@@ -1,9 +1,10 @@
 name: TVHeadend
-version: dev
+version: "2.4.4"
 stage: experimental
 slug: tvheadend
 description: TV streaming server and recorder.
 url: "https://github.com/GauthamVarmaK/addon-tvheadend"
+image: "ghcr.io/gauthamvarmak/tvheadend/{arch}"
 init: false
 arch:
   - aarch64
