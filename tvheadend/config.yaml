@@ -14,9 +14,7 @@ arch:
   - i386
 webui: "http://[HOST]:[PORT:9981]/"
 full_access: true
-devices:
-  - /dev/dvb
-  - /dev/dri
+apparmor: false
 ports:
   9981/tcp: 9981
   9982/tcp: 9982
