@@ -24,6 +24,10 @@ ports_description:
 map:
   - "config:rw"
   - "media:rw"
+environment:
+  LANG: "en_US.UTF-8"
+  LC_ALL: "en_US.UTF-8"
+  LANGUAGE: "en_US.UTF-8"
 options:
   system_packages: []
   init_commands: []
